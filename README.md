@@ -1,23 +1,34 @@
-The hERG channel is a voltage-gated potassium channel involved in the electrical 
-activity of the heart. The inhibition of the hERG channel leads to a high risk of cardio 
-toxicology and thus has become a critical issue in the pharmaceutical industry. In recent 
-years, computational molecular models have accelerated the drug discovery process, but 
-they have not been able to solve the binding modes of hERG blockers. This study aims 
-to understand and predict how small molecules interfere with the channel, and its 
-promiscuity to bind with a wide range of drugs. To predict if an unknown molecule can 
-be a potential drug candidate and thus is not an hERG inhibitor, we have built several 
-QSAR models applying the Decision Tree, Random Forest, and Light-GBM algorithms. 
-The obtained models were externally validated using a “One-Cluster-Out Cross
-Validation” strategy specifically developed to assess the predictive ability of the model 
-in a closer real-world scenario. Furthermore, using structure-based drug design a 
-docking study was conducted to gain insight into the binding modes of the hERG 
-inhibitors. The developed QSAR models have showed good prediction accuracy 
-(balanced accuracy exceeding 70%) for the Random Forest and Light-GBM models. 
-However, only the Light-GBM model maintains a low % of error (under 10%) in the 
-classification of the external validation data. Additionally, four binding modes of hERG 
-inhibitors were discovered. All uncovered binding modes highlight the fundamental role 
-of tyrosines (Y652) in the stabilization and binding of the drugs in the central cavity of 
-the protein, which has been previously characterized by several studies. Nonetheless, 
-several other amino acid residues, such as the alanines (A653), the serines (S660 and 
-S624), and the glycines (G657), were observed to be responsible for key interactions in 
-the binding modes.
+# hERG Channel Inhibition and Drug Discovery
+
+## Overview
+
+The hERG channel is a voltage-gated potassium channel crucial for heart electrical activity. Inhibition of this channel poses a high cardiotoxic risk, making it a significant focus in the pharmaceutical industry. This project explores the binding modes of hERG blockers to enhance drug discovery processes.
+
+## Objectives
+
+- **Understand and Predict Interference**: Analyze how small molecules interact with the hERG channel and examine its binding promiscuity with various drugs.
+- **Develop QSAR Models**: Utilize Decision Tree, Random Forest, and Light-GBM algorithms to predict potential drug candidates that do not inhibit the hERG channel.
+
+## Methodology
+
+1. **QSAR Model Development**:
+   - Models were built using Decision Tree, Random Forest, and Light-GBM.
+   - "One-Cluster-Out Cross Validation" was employed to validate models in a real-world scenario.
+
+2. **Docking Studies**:
+   - Conducted to unveil the binding modes of hERG inhibitors.
+   - Focused on four binding modes, highlighting key interactions.
+
+## Results
+
+- **QSAR Models**:
+  - Achieved good prediction accuracy (balanced accuracy > 70%) for Random Forest and Light-GBM.
+  - Light-GBM maintained a low error rate (< 10%) during external validation.
+
+- **Binding Modes**:
+  - Discovery of four binding modes with tyrosines (Y652) playing a crucial role in stabilization.
+  - Identified key residues such as alanines (A653), serines (S660 and S624), and glycines (G657) in interaction dynamics.
+
+## Conclusion
+
+The study provides insights into the binding mechanisms of hERG inhibitors and offers predictive models to aid in safer drug design. The findings emphasize the importance of specific amino acids in drug stabilization and binding within the hERG channel.
