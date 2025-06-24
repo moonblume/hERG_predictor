@@ -1,0 +1,95 @@
+TRAINING
+
+fold n°0
+RF train roc-auc: 0.8468309555909438
+RF eval roc-auc: 0.7231343519660878
+Average eval roc-auc: 0.7231343519660878
+Threshold = 0.1673335668544428
+fold n°1
+RF train roc-auc: 0.8450665360955234
+RF eval roc-auc: 0.7702341137123746
+Average eval roc-auc: 0.7702341137123746
+Threshold = 0.1769222422091184
+fold n°2
+RF train roc-auc: 0.8455273859239529
+RF eval roc-auc: 0.7842206826737529
+Average eval roc-auc: 0.7842206826737529
+Threshold = 0.1905930060101734
+fold n°3
+RF train roc-auc: 0.8421415385410314
+RF eval roc-auc: 0.7684974388161638
+Average eval roc-auc: 0.7684974388161638
+Threshold = 0.1954305980397904
+fold n°4
+RF train roc-auc: 0.8430687543137245
+RF eval roc-auc: 0.8047967492579482
+Average eval roc-auc: 0.8047967492579482
+Threshold = 0.1765562258239289
+fold n°5
+RF train roc-auc: 0.8449257204224092
+RF eval roc-auc: 0.8046312949640287
+Average eval roc-auc: 0.8046312949640287
+Threshold = 0.18267714231073257
+fold n°6
+RF train roc-auc: 0.8416828059220307
+RF eval roc-auc: 0.7805668016194331
+Average eval roc-auc: 0.7805668016194331
+Threshold = 0.17630808364919953
+fold n°7
+RF train roc-auc: 0.8437178138627748
+RF eval roc-auc: 0.7768904020236409
+Average eval roc-auc: 0.7768904020236409
+Threshold = 0.17307952129090953
+fold n°8
+RF train roc-auc: 0.8464854694574042
+RF eval roc-auc: 0.7537315802845528
+Average eval roc-auc: 0.7537315802845528
+Threshold = 0.17144806958747288
+fold n°9
+RF train roc-auc: 0.8415185623916057
+RF eval roc-auc: 0.7742063492063493
+Average eval roc-auc: 0.7742063492063493
+Threshold = 0.18649222177945013
+
+TESTING
+fold n°0
+RF train roc-auc: 0.9703204281113442
+RF eval roc-auc: 0.7529644268774704
+Average eval roc-auc: 0.7529644268774704
+fold n°1
+RF train roc-auc: 0.9710103399502512
+RF eval roc-auc: 0.7542948955629711
+Average eval roc-auc: 0.7542948955629711
+fold n°2
+RF train roc-auc: 0.9712156524416546
+RF eval roc-auc: 0.7782738095238096
+Average eval roc-auc: 0.7782738095238096
+fold n°3
+RF train roc-auc: 0.9708703458703458
+RF eval roc-auc: 0.8534984520123838
+Average eval roc-auc: 0.8534984520123838
+fold n°4
+RF train roc-auc: 0.9724771201580402
+RF eval roc-auc: 0.780895373487966
+Average eval roc-auc: 0.780895373487966
+fold n°5
+RF train roc-auc: 0.9697041286640979
+RF eval roc-auc: 0.7660363366703745
+Average eval roc-auc: 0.7660363366703745
+fold n°6
+RF train roc-auc: 0.9696096722270998
+RF eval roc-auc: 0.7726315789473684
+Average eval roc-auc: 0.7726315789473684
+fold n°7
+RF train roc-auc: 0.9690108278817955
+RF eval roc-auc: 0.7594858484736126
+Average eval roc-auc: 0.7594858484736126
+fold n°8
+RF train roc-auc: 0.9703649906492772
+RF eval roc-auc: 0.8306172839506172
+Average eval roc-auc: 0.8306172839506172
+fold n°9
+RF train roc-auc: 0.9683089360508715
+RF eval roc-auc: 0.8253615127919911
+Average eval roc-auc: 0.8253615127919911
+

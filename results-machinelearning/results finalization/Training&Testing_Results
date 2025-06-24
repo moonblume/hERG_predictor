@@ -1,0 +1,96 @@
+
+Results Training Decision Tree :
+
+Preliminary  :
+balanced_accuracy_score = 0.6585632939115199
+matthews_corrcoef = 0.31714081428148966
+
+Pruned : Alpha = 0.005372650310662266
+balanced_accuracy_score = 0.636442396832182
+matthews_corrcoef = 0.27742316620090823
+
+Pruned : Alpha = 0.0022
+balanced_accuracy_score = 0.660806168168073
+matthews_corrcoef = 0.3448165710173817
+
+Cross-Validation : Alpha = 0.001383
+alpha	mean_accuracy	std
+0.001383	0.669784	0.029837
+balanced_accuracy_score = 0.6655733754114135
+matthews_corrcoef = 0.337341709649071
+
+
+
+
+Results Testing Decision Tree :
+
+Preliminary  :
+balanced_accuracy_score = 0.6277777777777778
+matthews_corrcoef = 0.2558522916738256
+
+Pruned : Alpha = 0.005372650310662266  -> 0.0093333348266669
+balanced_accuracy_score = 0.6444444444444444 -> 0.6388888888888888
+matthews_corrcoef = 0.28927802918475176 -> 0.28927802918475176
+
+Pruned : Alpha = 0.0022
+balanced_accuracy_score = 0.6388888888888888
+matthews_corrcoef = 0.2782074420373286
+
+Cross-Validation : Alpha = 0.001383 -> 0.001323
+alpha	mean_accuracy	std
+0.001383	0.669784	0.029837
+0.001323	0.658730	0.030942
+balanced_accuracy_score = 0.6314814814814815 -> 0.6388888888888888
+matthews_corrcoef = 0.2629647665683702 -> 0.27777968299475725
+
+
+
+
+
+Results Training Random Forest : Alpha = 0.001383
+
+Preliminary  :
+balanced_accuracy_score = 0.7099717309887821
+matthews_corrcoef = 0.420578359625738
+
+rf_random.best_params_ = 
+{'n_estimators': 533,
+ 'min_samples_split': 2,
+ 'min_samples_leaf': 1,
+ 'max_features': 'auto',
+ 'max_depth': 100,
+ 'bootstrap': True}
+
+ grid_search.best_params_ = 
+ {'bootstrap': True,
+ 'max_depth': 40,
+ 'max_features': 4,
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 10,
+ 'n_estimators': 500}
+
+Grid Search : 
+balanced_accuracy_score = 0.6912670392476608
+matthews_corrcoef = 0.38390305040352424
+
+Final :
+balanced_accuracy_score = 0.6926303549722324
+matthews_corrcoef = 0.3863889656208106
+
+
+
+
+Results Testing Random Forest :
+
+
+Preliminary  :
+balanced_accuracy_score = 0.712962962962963
+matthews_corrcoef = 0.42592884725862784
+
+Grid Search : 
+balanced_accuracy_score = 0.7203703703703703
+matthews_corrcoef = 0.4407679494786585
+
+Final :
+balanced_accuracy_score = 0.7222222222222223
+matthews_corrcoef = 0.44445663820946985
